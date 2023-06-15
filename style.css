@@ -17,10 +17,11 @@ body {
 }
 
 .apresentacao {
-    margin: 8% 16%;
+    height: 100vh;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 40px;
 }
 
 .apresentacao__conteudo {
@@ -61,7 +62,6 @@ body {
 .gengar {
     max-width: 488px;
     max-height: 550px;
-    border: 3px;
     border-radius: 16px;
     width: auto;
     height: auto;
